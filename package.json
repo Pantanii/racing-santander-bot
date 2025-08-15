@@ -1,0 +1,20 @@
+{
+  "name": "racing-news-bot",
+  "version": "1.0.0",
+  "description": "Bot de noticias del Racing de Santander",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "axios": "^0.27.0",
+    "node-cron": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["telegram", "bot", "racing", "santander", "noticias"],
+  "author": "Racing Fan",
+  "license": "MIT"
+}
